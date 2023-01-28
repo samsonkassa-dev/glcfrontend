@@ -1,0 +1,45 @@
+{
+  "name": "glcportalv1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.6",
+    "@sendgrid/mail": "^7.7.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.3.8",
+    "next": "12.1.6",
+    "primereact": "^8.7.3",
+    "query": "^0.2.0",
+    "react": "^18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.7.1",
+    "react-images-uploading": "^3.1.7",
+    "react-query": "^3.39.1",
+    "react-script": "^2.0.5",
+    "react-scroll-motion": "^0.3.0",
+    "recoil": "^0.7.3",
+    "sharp": "^0.31.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "^0.2.4",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "browser": {
+    "crypto": false
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "labels":[
+      {
+          "locale": "en-US",
+          "label":"English",
+          "steps":[
+              "Basic Information",
+              "Church Related Info.",
+              "Church Related Info 2",
+              "Done"
+          ],
+          "back": "BACK",
+          "continue":"CONTINUE",
+          "submitForm": "SUBMIT FORM",
+          "emailError": "Please enter a valid email",
+          "phoneError": "Please enter a valid Phone Number eg: 0912345678",
+          "passwordError": "Password should be 8 or more characters",
+          "emptyFieldError": "This field can not be empty",
+          "basicInformation":{
+              "fullName": "Full Name",
+              "fullNameDesc":"Please include your Grandfather's name",
+              "city":"City",
+              "cityDesc":"City of Your Residence",
+              "phoneNumber":"Phone Number",
+              "workStatus":"Work Status",
+              "workStatusOptions":[
+                  "- Select -",
+                  "Student",
+                  "Employee"
+              ],
+              "educationStatus":"Education Status",
+              "employeOptions":[
+                  "What do you work?",
+                  "Field of your job",
+                  "Where do you work?",
+                  "Company Name",
+                  "Place of Work?",
+                  "City Name"
+
+              ],
+              "educationStatusOptions":[
+                  "- Select -",
+                  "Diploma",
+                  "Degree",
+                  "Masters",
+                  "Doctrate",
+                  "Other"
+              ],
+              "studentOptions":[
+                  "Where do you learn?",
+                  "Place of your School",
+                  "What are you studying?",
+                  "Field of Study"
+
+              ],
+              "subCity":"Sub City"
+
+          },
+      "churchRelatedInfo": {
+        "whenSaved": "When did you get saved? ",
+        "whichChurch": "Which Church did you get saved?",
+        "whoInvited": [
+          "Who invited you to GLC?",
+          "Full Name",
+          "Please fill their full name",
+          "Phone Number",
+          "Social Media",
+          "Gospel TV"
+        ],
+        "restoration": "Restoration",
+        "foundation1": "Foundation 1",
+        "foundation2": "Foundation 2",
+        "ministerTraining": "Minister's Training",
+        "whichDepartement":"Which departement do you serve?"
+      },
+
+      "churchRelatedInfo2": {
+          "maritalStatus": "Marital Status ",
+          "married": "Married",
+          "single": "Single",
+          "divorced": "Divorced",
+          "widow": "Widow",
+          "childChurch": [
+            "Does your child come to church?",
+            "Yes",
+            "No"
+        ],
+          "childNumber":"Number of Children",
+          "childName":"Name of Children",
+          "childAge":"Age",
+          "ministryExperiance":"Your Experiance on Ministry before?",
+          "comment":"Comments",
+          "uploadImage":"Upload Image",
+          "clickorupload":"Click or Drop here"
+          
+        },
+      "done": {
+        "loading": "Loading...",
+        "success": "You have successfully submitted your application.",
+        "close": "Close",
+        "home": "Go to Homepage"
+      }
+    },
+
+    {
+      "locale": "am-ET",
+      "label":"አማርኛ",
+      "steps":[
+          "መሰረታዊ መረጃ",
+          "ከቤተክርስቲያን ጋር የተዛመደ መረጃ",
+          "ከቤተክርስቲያን ጋር የተዛመደ መረጃ 2",
+          "ተከናውኗል"
+      ],
+      "back": "ተመለስ",
+      "continue": "ቀጥል",
+      "submitForm": "መረጃውን ላክ",
+      "emailError": "እባክዎ ትክክለኛ ኢሜይል ያስገቡ",
+      "phoneError": "እባክዎ ትክክለኛ ስልክ ቁጥር ያስገቡ ለምሳሌ 0912345678",
+      "passwordError": "የይለፍ ቃል 8 ወይም ከዚያ በላይ ፊደሎች መሆን አለበት",
+      "emptyFieldError": "ይህ ቦታ ባዶ ሊሆን አይችልም",
+      "basicInformation":{
+          "fullName": "ሙሉ ስም",
+          "fullNameDesc":"እባክዎን ስም እስከነ አያት ያስገቡ",
+          "city":"ከተማ",
+          "cityDesc":"የመኖሪያ ከተማዎ",
+          "phoneNumber":"ስልክ ቁጥር",
+          "workStatus":"የስራ ሁኔታ",
+          "workStatusOptions":[
+              "- ይምረጡ -",
+              "ተማሪ",
+              "ሰራተኛ"
+
+          ],
+          "studentOptions":[
+              "የት ነው የሚማሩት?",
+              "የትምህርት ቤትዎ ያለበት ቦታ",
+              "ምንድነው እየተማሩ ያሉት?",
+              "የትምህረቱ መስክ"
+
+          ],
+          "employeOptions":[
+              "ምንድነው የሚሰሩት?",
+              "የስራው መስክ",
+              "የት ነው የሚሰሩት?",
+              "ሚሰሩበት ድርጅት ስም",
+              "የስራ ቦታ?",
+              "ሚሰሩበት ከተማ / ሀገር"
+
+          ],
+          "educationStatus":"የትምህርት ሁኔታ",
+          "educationStatusOptions":[
+              "- ይምረጡ -",
+              "ዲፕሎማ",
+              "ዲግሪ",
+              "ማስተርስ",
+              "ዶክትሬት",
+              "ሌላ"
+          ],
+          "subCity":"ክፍለ ከተማ"
+
+      },
+      "churchRelatedInfo": {
+        "whenSaved": "መቼ ነው ጌታን የተቀበሉት? ",
+        "whichChurch": "የት ነው ጌታን የተቀበሉት?",
+        "whoInvited": [
+          "ማነው ወደ ክብር ህይወት የጋበዝዎት?",
+          "ሙሉ ስም",
+          "እባክዎ የጋበዝዎትን ሰው ሙሉ ስም ይሙሉ",
+          "ስልክ ቁጥር",
+          "ማህበራዊ ትስስር",
+          "ጎስፕል ቲቪ"
+        ],
+        "restoration": "ሪስቶሮሽን",
+        "foundation1": "ፋውንዴሽን 1",
+        "foundation2": "ፋውንዴሽን 2",
+        "ministerTraining": "የአገልጋዮች ስልጠና",
+        "whichDepartement":"በየትኛው አገልግሎት ክፍል ነው ሚያገለግሉት?"
+      },
+
+      "churchRelatedInfo2": {
+          "maritalStatus": "የጋብቻ ሁኔታ",
+          "married": "ያገባ/ች",
+          "single": "ያላገባ/ች",
+          "divorced": "የተፋታ/ች",
+          "widow": "መበለት",
+          "childChurch": [
+            "ልጅዎት ወደ ቤተ-ክርስቲያን ይመጣል?",
+            "አዎ",
+            "አይ"
+        ],
+          "childNumber":"ስንት ልጅ አሎት?",
+          "childName":"የልጆት ስም",
+          "childAge":"እድሜ",
+          "ministryExperiance":"ከዚ በፊት የነበራችው የአገልግሎት ልምድ?",
+          "uploadImage":"ፎቶዎን የስቀምጡ",
+          "comment":"አስተያየት",
+          "clickorupload":"እዚህ ጋር ይጫኑ ወይም ያስቀምጡ"
+          
+        },
+      "done": {
+        "loading": "በመላክ ላይ...",
+        "success": "መረጃዎን በተሳካ ሁኔታ ተልኳል",
+        "consent_start": "ለሥልጠና ስትመጣ/ጪ ይህን ",
+        "consent_end": " በወላጆች/አሳዳጊዎች አስፈረመህ/ሽ ማምጣት ይኖርብሃል/ሻል።",
+        "consent_form": "የስምምነት ቅጽ",
+        "close": "ዝጋ",
+        "home": "ወደ መነሻ ገጽ ሂድ"
+      }
+    }
+  ]
+}

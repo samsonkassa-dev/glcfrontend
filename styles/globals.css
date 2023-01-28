@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.partner-bg{
+  background: white url('/imageBg.png') no-repeat center;
+  background-size: cover;
+
+}
+
+@layer base{
+  html{
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .label-style {
+    @apply  mt-3 text-sm font-bold  text-black;
+  }
+
+  .select-style {
+    @apply w-full p-2 mt-2 border-gray-300 rounded-lg shadow-sm
+    focus:border-indigo-500 focus:ring-indigo-500;
+  }
+  .grid-style {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-3;
+  }
+  .input-div-style {
+    @apply my-2 flex rounded border border-gray-300 bg-white p-1;
+  }
+  .input-style {
+    @apply w-full appearance-none p-1 px-2 text-gray-800 outline-none;
+  }
+}
