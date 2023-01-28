@@ -1,6 +1,6 @@
 @contentType = application/json 
 
-POST http://localhost:3000/api/acc HTTP/1.1
+POST   https://glc-server-production.up.railway.app/acc' HTTP/1.1
 Content-Type: {{contentType}}
 
 {
@@ -24,7 +24,7 @@ Content-Type: {{contentType}}
 ###
 
 
-POST  http://localhost:5001/auth/register HTTP/1.1
+POST   https://glc-server-production.up.railway.app/auth/register HTTP/1.1
 Content-Type: {{contentType}}
 
 {
@@ -34,11 +34,11 @@ Content-Type: {{contentType}}
 
 ###
 
-POST  http://localhost:5001/auth/login HTTP/1.1
+POST   https://glc-server-production.up.railway.app/auth/login HTTP/1.1
 Content-Type: {{contentType}}
 
 {
-  "email": "samikassa@gmail.com",
-  "password": "1234567"
+  "email": "gloriouslifechurch@gmail.com",
+  "password": "@gloriouslife"
 }
 
