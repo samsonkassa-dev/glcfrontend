@@ -5,7 +5,7 @@ export default async function register (req, res) {
 
   try {
     const { data, headers: returnedHeaders } = await axios.post(
-      'http://localhost:5001/auth/register',
+      'https://glc-server-production.up.railway.app/auth/register',
       body,
       {
         headers,

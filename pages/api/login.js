@@ -4,7 +4,7 @@ export default async function login (req, res)  {
   const { headers, body } = req;
   try {
     const { data, headers: returnedHeaders } = await axios.post(
-      'http://localhost:5001/auth/login',
+      ' https://glc-server-production.up.railway.app/auth/login',
       body,
       { headers }
     );
