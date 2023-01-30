@@ -56,7 +56,7 @@ export default function Final({ labels, locale }) {
             {labels.success}{" "}
           </div>
           <a className="mt-10">
-            <button className="h-10 px-5 text-green-700 transition-colors duration-150 border border-gray-300 rounded-lg focus:shadow-outline hover:bg-green-500 hover:text-green-100">
+            <button onClick={(e) => router.push("/login")} className="h-10 px-5 text-green-700 transition-colors duration-150 border border-gray-300 rounded-lg focus:shadow-outline hover:bg-green-500 hover:text-green-100">
               <Link href="/" locale={defaultLocale}>
                 {labels.close}
               </Link>

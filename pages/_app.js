@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   const queryClient = useRef(new QueryClient());
   return (
     <QueryClientProvider client={queryClient.current}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </QueryClientProvider>
   );
 }
