@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export default async function register (req, res) {
   const { headers, body } = req;
-
+  headers.host = 'glc-server-production.up.railway.app';
   try {
     const { data, headers: returnedHeaders } = await axios.post(
       'https://glc-server-production.up.railway.app/auth/register',
