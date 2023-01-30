@@ -52,10 +52,10 @@ function Application() {
           />
         );
       case 4:
-        return <Final labels={labels.done} locale={locale} />;
+        return <Final labels={labels.done} locale={locale} />
       default:
     }
-  };
+  }
 
   const handleClick = (direction) => {
     let newStep = currentStep;

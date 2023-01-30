@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import useMediaQuery from '../custom_hooks/useMediaQuery';
-import igg from '../public/logo-web_sm.png';
 import styles from "../styles/Home.module.css";
 
 function Footer() {
