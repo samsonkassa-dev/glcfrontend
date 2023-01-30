@@ -3,7 +3,7 @@ import GlcHome from "../components/GlcHome";
 
 
 import Head from "next/head";
-import Image from "next/image";
+
 
 function Home() {
   return (
