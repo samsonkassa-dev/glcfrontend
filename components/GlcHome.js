@@ -26,7 +26,7 @@ function HomePage() {
             <div className="flex justify-center lg:justify-start  mt-14">
               <button
                 className="bg-[#175daa] w-48 py-3.5 text-white rounded-[4px] shadom-md flex justify-center items-center space-x-2 group"
-                onClick={(e) => router.push("/login")}
+                onClick={(e) => router.push("/application")}
               >
                 <p className="text-lg">Register Here</p>
                 <BsArrowRight className="text-xl transition duration-200 ease-out group-hover:translate-x-1 " />
